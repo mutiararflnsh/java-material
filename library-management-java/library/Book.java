@@ -13,6 +13,10 @@ public abstract class Book {
         this.availableCopies = availableCopies;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
     public boolean borrowBook() {
         if (availableCopies > 0) {
             availableCopies--;

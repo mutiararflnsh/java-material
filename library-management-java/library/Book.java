@@ -1,6 +1,6 @@
 package library;
 
-public abstract class Book {
+public class Book {
     private int bookId;
     public String title;
     public String author;
@@ -30,7 +30,7 @@ public abstract class Book {
     }
 
     public String toString() {
-        return title + "by" + author + "(Available Copies: " + availableCopies + ")";
+        return title + " by " + author + "(Available Copies: " + availableCopies + ")";
     }
 
 }
